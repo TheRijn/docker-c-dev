@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y\
   valgrind\
   gdb\
   curl\
+  check\
   --no-install-recommends\
   && rm -rf /var/lib/apt/lists/*
 
