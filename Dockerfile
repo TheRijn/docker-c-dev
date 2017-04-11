@@ -1,8 +1,9 @@
 FROM debian:jessie-slim
 
 RUN apt-get update && apt-get install -y\
-  make\
+  build-essential\
   gcc\
+  flex\
   clang\
   valgrind\
   gdb\
