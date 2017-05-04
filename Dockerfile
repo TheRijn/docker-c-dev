@@ -8,6 +8,9 @@ RUN apt-get update && apt-get install -y\
   valgrind\
   gdb\
   curl\
+  python\
+  file\
+  bc\
   # Libraries
   check\
   libreadline-dev\
